@@ -1,0 +1,33 @@
+body {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background:#F4F4F4;
+    color: black;
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-top: 200px;
+    padding-bottom: 100px;
+}
+
+.font-white {
+    color: white;
+}
+
+.font-black {
+    color: black;
+}
+
+.upperlower {
+    background-color:#C0C0C0;
+    width: 1000px;
+    height: 25px;
+}
+
+.header {
+    background-color: red;
+    width: 1000px;
+}
+
+.main-content {
+    background-color: #E2E2E2;
+    width: 1000px;
+}

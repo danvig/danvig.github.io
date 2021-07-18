@@ -1,0 +1,55 @@
+/*
+
+    CSS File for To-Do List
+    Author: Daniel Viglietti
+    Original Source: https://www.youtube.com/watch?v=-pRg_daFjfk
+    Date: 17/02/2020
+
+*/
+
+body {
+    background-image: url("../assets/background.jpg");
+}
+
+.content {
+    padding-top: 100px;
+    padding-bottom: 300px;
+    padding-left: 300px;
+    padding-right: 300px;
+}
+
+.container {
+    width: 360px;
+    border: 1px solid black;
+}
+
+#inputField {
+    width:750px;
+    height: 46px;
+    border: 1px solid black;
+    outline: none;
+    font-size: 25px;
+    vertical-align: middle;
+}
+
+#addToDo {
+    height: 46px;
+    width: 50px;
+    border: 1px solid black;
+    vertical-align: middle;
+    font-size: 25px;
+}
+
+.to-dos {
+    margin-top: 25px;
+}
+
+.paragraph-styling {
+    margin: 0;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.left {
+    text-align: left;
+}
