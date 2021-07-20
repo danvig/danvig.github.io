@@ -1,0 +1,102 @@
+<html lang="en">
+    <head>
+        <!--
+
+            NOTES
+            This is a recreation of the Nerve site from the 2016 movie Nerve.
+            Not a real site.
+            Code is original and must not be used or reproduced without my permission
+
+        -->
+        
+        <title>Nerve - New York City - Are you a Watcher or Player?</title>
+        
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+        <!-- Import Bootstrap -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    </head>
+
+    <body class="animated fadeIn">
+        <div class="container">
+            <!-- Title -->
+            <div class="row">
+                <div class="col-12">
+                    <h1 class="nerve-title">NERVE</h1>
+                </div>
+            </div>
+
+            <!-- Options -->
+            <div class="row">
+                <div class="col-sm-6">
+                    <h2 class="watcher-title">Watcher</h2>
+                </div>
+                <div class="col-sm-6">
+                    <h2 class="player-title">Player</h2>
+                </div>
+            </div>
+        </div>
+    </body>
+
+    <style>
+        /* IMPORT FONT */
+        @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+        body 
+        {
+            background-color:black;
+            padding-left:250px;
+            padding-right:250px;
+            padding-top:150px;
+            text-align:center;
+
+            /* FADE IN */
+            animation: fadeInAnimation ease 3s;
+            animation-iteration-count: 1;
+            animation-fill-mode: forwards;
+        }
+
+        .nerve-title {
+            font-family: 'Bebas Neue', cursive;
+            color:#14FF9A;
+            font-size:250px;
+        }
+
+        .watcher-title {
+            font-family: 'Bebas Neue', cursive;
+            color:#C20082;
+            font-size:90px;
+        }
+
+        .player-title {
+            font-family: 'Bebas Neue', cursive;
+            color: #CA0001;
+            font-size:90px;
+        }
+
+        .watcher-title:hover {
+            background-color: #C20082;
+            color: black;
+        }
+
+        .player-title:hover {
+            background-color: #CA0001;
+            color: black;
+        }
+
+        @keyframes fadeInAnimation 
+        {
+            0% {
+                opacity: 0;
+            }
+            100% {
+                opacity: 1;
+            }
+        }
+    </style>
+
+</html>
