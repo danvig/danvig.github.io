@@ -9,11 +9,12 @@
 
         -->
         
-        <title>Nerve - New York City - Are you a Watcher or Player?</title>
+        <title>Welcome to Nerve - New York City - Player</title>
         
         <!-- Required meta tags -->
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta http-equiv="refresh" content="51; URL=/begin.html"/>
 
         <!-- Import Bootstrap -->
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
@@ -26,18 +27,16 @@
         <div class="container">
             <!-- Title -->
             <div class="row">
-                <div class="col-12">
-                    <h1 class="nerve-title">NERVE</h1>
-                </div>
-            </div>
+                <div class="col-12" style="padding-top:50px;">
+                    <center>
+                        <video width="900" autoplay>
+                            <source src="videos/welcome2.mp4" type="video/mp4">
+                        </video>
+                    </center>
 
-            <!-- Options -->
-            <div class="row">
-                <div class="col-sm-6">
-                    <h2 class="watcher-title">Watcher</h2>
-                </div>
-                <div class="col-sm-6">
-                    <a href="welcome.html"><h2 class="player-title">Player</h2></a>
+                    <div style="padding-top:150px; padding-bottom:20px;">
+                        <p style="color:white;">If page does not refresh in a few seconds, <a href="begin.html">click here!</a></p>
+                    </div>
                 </div>
             </div>
         </div>
@@ -53,11 +52,6 @@
             padding-right:250px;
             padding-top:150px;
             text-align:center;
-
-            /* FADE IN */
-            animation: fadeInAnimation ease 3s;
-            animation-iteration-count: 1;
-            animation-fill-mode: forwards;
         }
 
         .nerve-title {
@@ -86,20 +80,6 @@
         .player-title:hover {
             background-color: #CA0001;
             color: black;
-        }
-
-        a:hover {
-            text-decoration:none;
-        }
-
-        @keyframes fadeInAnimation 
-        {
-            0% {
-                opacity: 0;
-            }
-            100% {
-                opacity: 1;
-            }
         }
     </style>
 

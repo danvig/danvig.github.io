@@ -9,7 +9,7 @@
 
         -->
         
-        <title>Nerve - New York City - Are you a Watcher or Player?</title>
+        <title>Player: Please Standby</title>
         
         <!-- Required meta tags -->
         <meta charset="utf-8">
@@ -26,18 +26,12 @@
         <div class="container">
             <!-- Title -->
             <div class="row">
-                <div class="col-12">
-                    <h1 class="nerve-title">NERVE</h1>
-                </div>
-            </div>
-
-            <!-- Options -->
-            <div class="row">
-                <div class="col-sm-6">
-                    <h2 class="watcher-title">Watcher</h2>
-                </div>
-                <div class="col-sm-6">
-                    <a href="welcome.html"><h2 class="player-title">Player</h2></a>
+                <div class="col-sm-12" style="padding-top:50px;">
+                    <hr>
+                    <h2 class="standby-title">STANDBY</h2>
+                    <hr>
+                    <h2 class="counter-title">05:00</h2>
+                    <hr>
                 </div>
             </div>
         </div>
@@ -51,41 +45,25 @@
             background-color:black;
             padding-left:250px;
             padding-right:250px;
-            padding-top:150px;
+            padding-top:170px;
             text-align:center;
-
-            /* FADE IN */
-            animation: fadeInAnimation ease 3s;
-            animation-iteration-count: 1;
-            animation-fill-mode: forwards;
         }
 
-        .nerve-title {
+        .standby-title {
             font-family: 'Bebas Neue', cursive;
-            color:#14FF9A;
-            font-size:250px;
+            color:yellow;
+            font-size:100px;
         }
 
-        .watcher-title {
+        .counter-title {
             font-family: 'Bebas Neue', cursive;
-            color:#C20082;
+            color:yellow;
             font-size:90px;
         }
 
-        .player-title {
-            font-family: 'Bebas Neue', cursive;
-            color: #CA0001;
-            font-size:90px;
-        }
-
-        .watcher-title:hover {
-            background-color: #C20082;
-            color: black;
-        }
-
-        .player-title:hover {
-            background-color: #CA0001;
-            color: black;
+        hr {
+            border-top:10px solid yellow;
+            width:400px;
         }
 
         a:hover {
