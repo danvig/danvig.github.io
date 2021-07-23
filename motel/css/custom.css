@@ -1,0 +1,245 @@
+/*
+
+    CUSTOM CSS FOR MOTEL TEMPLATE
+    CHANGE AS REQUIRED
+
+*/
+
+
+/* GOOGLE FONTS */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Uchen&display=swap');
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Uchen', serif;
+    width:100%;
+}
+
+.header {
+    /* BACKGROUND IMAGE */
+    background-image: url("../assets/img/homepage/main-header-unsplash.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+    /* HEIGHT AND TEXT STYLING */
+    height: 750px;
+    color: white;
+    padding-top:30px;
+    padding-left:30px;
+
+    /* FADE-IN */
+    animation: fadeInAnimation ease 3s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+/* PAGE FADE-IN */
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+        }
+    100% {
+        opacity: 1;
+        }
+}
+
+/* CUSTOM BUTTONS */
+.welcome-button {
+    width:55px;
+    font-size:34px;
+    color:white;
+    border: 2px solid white;
+    border-radius:40px;
+    background-color:transparent;
+    text-align:center;
+}
+
+.welcome-button:hover {
+    background-color: rgb(31, 30, 30);
+    color:white;
+}
+
+.more-button {
+    width:130px;
+    height:50px;
+    color:black;
+    border:2px solid black;
+    border-radius:40px;
+    background-color:transparent;
+    text-align:center;
+}
+
+.more-button:hover {
+    background-color:rgb(31,30,30);
+    color:white;
+}
+
+.welcome {
+    text-align:center;
+    background-color:#F8F0E1;
+    color:black;
+    padding-top:200px;
+    padding-bottom:200px;
+    padding-left:200px;
+    padding-right:200px;
+}
+
+.rooms {
+    background-color:#82342B;
+    color:white;
+}
+
+.rooms hr {
+    border:1px solid white;
+}
+
+.king-room {
+    background-image:url("../assets/img/homepage/king-bed.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+}
+
+.queen-room {
+    background-image:url("../assets/img/homepage/queen-bed.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+}
+
+.twin-room {
+    background-image:url("../assets/img/homepage/twin-bed.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+}
+
+.room-details {
+    text-align:center;
+    padding-top:130px;
+}
+
+.text-center {
+    text-align:center;
+}
+
+hr {
+    border-top:1px solid black;
+}
+
+.facilities {
+    padding-top:20px;
+    text-align:center;
+}
+
+footer {
+    padding-top:30px;
+    padding-bottom:20px;
+    background-color: #231F20;
+    color: #F8F0E1;
+}
+
+footer hr {
+    border-top:1px solid #F8F0E1;
+    width:1200px;
+}
+
+footer a {
+    color: #F8F0E1;
+}
+
+footer a:hover {
+    color: #b3aca1;
+}
+
+.submit-button {
+    border:1px solid white;
+    border-radius:30px;
+    color:#F8F0E1;
+    background-color:transparent;
+    height:50px;
+    width:100px;
+}
+
+.newsletter-email {
+    border:1px solid white;
+    border-radius:30px;
+    background-color:transparent;
+    color: #F8F0E1;
+    width: 500px;
+    height:50px;
+    padding-left:15px;
+}
+
+/* SOCIAL MEDIA ICONS */
+/* Style all font awesome icons */
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 55px;
+    text-decoration: none;
+    border-radius: 60%;
+    text-align:center;
+    border:1px solid #F8F0E1;
+}
+  
+/* Add a hover effect if you want */
+.fa:hover {
+    opacity: 0.7;
+}
+  
+/* Set a specific color for each brand */
+  
+/* Facebook */
+.fa-facebook {
+    background: transparent;
+    color: white;
+}
+  
+/* Twitter */
+.fa-google {
+    background: transparent;
+    color: white;
+}
+
+.fa-instagram {
+    background: transparent;
+    color: white;
+}
+
+/* Unstyled */
+.unstyled {
+    text-decoration:none;
+}
+
+.short-hr {
+    width:100px;
+    color: #F8F0E1;
+}
+
+/* NAVBAR */
+.navbar-brand {
+    color:white;
+    font-size:30px;
+}
+
+.navbar a {
+    color:white;
+}
+
+.navbar a:hover {
+    color:rgb(209, 209, 209);
+}
+
+.nav-item {
+    font-size:24px;
+    padding-right:15px;
+}
