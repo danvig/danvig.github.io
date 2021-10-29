@@ -1,0 +1,190 @@
+<html>
+<head>
+<title>www.galeweathers.com</title>
+<!--Created by The Chopping Block, Inc. 1999 - www.choppingblock.com -->
+<SCRIPT LANGUAGE = "JavaScript">
+<!--
+
+// Array Function
+
+function makeArray() {
+var args = makeArray.arguments;
+    for (var i = 0; i < args.length; i++) {
+    this[i] = args[i];
+    }
+this.length = args.length;
+}
+
+// The descriptions and names of the pages
+
+var pages = new makeArray("More About Gale",
+			"About me",
+			"Rules For Success",
+			"My Routine");
+
+
+// The URLs of the pages
+
+var urls = new makeArray("#",
+ 					     "about.html",
+                         "rules.html",
+                         "routine.html");         
+      
+
+// The select function
+
+function goPage(form) {
+i = form.menu.selectedIndex;            
+    if (i != 0) {
+    window.location.href = urls[i];  
+    }
+}
+
+
+//-->
+</SCRIPT>
+</head>
+
+<body bgcolor="#9999FF" marginheight=0 marginwidth=0 leftmargin=0 topmargin=0 background="images/scream3_sp_138.gif">
+<table border="0" cellpadding="0" cellspacing="0" width=900>
+  <tr> 
+    <td height="63" colspan="3"><img src="images/scream3_sp_122.gif" width="236" height="67"><a href="index.html"><img src="images/scream3_sp_118.gif" width="90" height="67" border="0"></a><a href="advice.html"><img src="images/scream3_sp_119.gif" width="105" height="67" border="0"></a><a href="books.html"><img src="images/scream3_sp_120.gif" width="123" height="67" border="0"></a><a href="interview.html"><img src="images/scream3_sp_121.gif" width="109" height="67" border="0"></a><a href="y2k.html"><img src="images/scream3_sp_130.gif" width="122" height="67" border="0"></a><img src="images/scream3_sp_106.gif" width="75" height="67"></td>
+  </tr>
+  <tr> 
+    <td height="354" width="68" bgcolor="#000066" valign="top"><br>
+      <img src="images/scream3_sp_104.gif" width="67" height="243"><br>
+      <img src="images/scream3_sp_105.gif" width="67" height="66" border="0" usemap="#gale_map"></td>
+    <td height="354" width="42" valign="top"><img src="images/scream3_sp_107.gif" width="28" height="533"></td>
+    <td height="354" width="790" valign="top"> 
+      <table border="0" height="300" width="665" vspace="10" cellpadding="2" cellspacing="2">
+        <tr> 
+          <td width="318" valign="top" height="2"> 
+            <p align="left"><img src="images/scream3_sp_117.gif" width="1" height="1"> 
+              <b><font face="Arial, Helvetica, sans-serif" size="3"><img src="images/scream3_sp_126.gif" width="276" height="46"></font></b><font face="Arial, Helvetica, sans-serif" size="2"> 
+              </font></p>
+          </td>
+          <td width="333" valign="bottom" height="2" align="right"> 
+            <SCRIPT LANGUAGE = "JavaScript">
+<!--
+
+// The select menu is here
+
+document.write('<FORM><SELECT NAME = "menu" onChange = "goPage(this.form)">');
+    for (var i = 0; i < pages.length; i++) {
+    document.write('<OPTION>' + pages[i]);
+    }
+document.write('</SELECT></FORM>');
+
+//-->
+</SCRIPT></td>
+        </tr>
+        <tr> </tr>
+        <tr> 
+          <td height="452" width="318" valign="top"> 
+            <p><b><font face="Arial, Helvetica, sans-serif" size="3"><img src="images/scream3_sp_124.gif" width="318" height="30"></font><font face="Arial, Helvetica, sans-serif" size="2"><b><font face="Arial, Helvetica, sans-serif" size="2"><b></b></font></b></font><font face="Arial, Helvetica, sans-serif" size="3"> 
+              </font></b> </p>
+            <ol>
+              <li><font face="Arial, Helvetica, sans-serif" size="2"><b><font face="Arial, Helvetica, sans-serif" size="2"><b></b></font><font size="3">Holly 
+                Hunter</font></b> - <i>Broadcast News</i>, need I say more? </font></li>
+              <li><font face="Arial, Helvetica, sans-serif" size="3"><b> Deputy 
+                Dewey</b></font><font face="Arial, Helvetica, sans-serif" size="2"> 
+                - Any man who takes a blade in the back for a lady like me has 
+                my attention! <b><font face="Arial, Helvetica, sans-serif" size="2"><b><font face="Arial, Helvetica, sans-serif" size="2"><b><font size="3"><img src="images/scream3_sp_136.gif" width="120" height="94" align="right"></font></b></font></b></font></b></font></li>
+              <li><font face="Arial, Helvetica, sans-serif" size="3"><b> Candice 
+                Bergen</b></font><font face="Arial, Helvetica, sans-serif" size="2"> 
+                - Smart, savvy, witty... Murphy Brown, enough said. <b><font face="Arial, Helvetica, sans-serif" size="2"><b><font face="Arial, Helvetica, sans-serif" size="2"><b></b></font></b></font></b></font></li>
+              <li><font face="Arial, Helvetica, sans-serif" size="3"><b>Judge 
+                Judy</b></font><font face="Arial, Helvetica, sans-serif" size="2"> 
+                - Doesn't take any nonsense (like a certain other powerful woman 
+                that I know... namely, me!). </font></li>
+              <li><font face="Arial, Helvetica, sans-serif" size="3"><b>Walter 
+                Cronkite</b></font><font face="Arial, Helvetica, sans-serif" size="2"> 
+                - There were really no women in the news when I was growing up, 
+                so he was the next best thing. He is so uncompromising! Walter 
+                inspires me to want to get at the truth with every interview. 
+                </font></li>
+              <li><font face="Arial, Helvetica, sans-serif" size="3"><b>Indigo 
+                Girls</b></font><font face="Arial, Helvetica, sans-serif" size="2"> 
+                - Love their sound, love their spunk! You ladies are invited back 
+                to <i>Total Entertainment</i> anytime, I loved your energy! </font></li>
+              <li><b><font face="Arial, Helvetica, sans-serif" size="3">Jane Pauly</font></b><font face="Arial, Helvetica, sans-serif" size="2"> 
+                - An inspiration to any female newsperson. The way she held her 
+                own with Gumble was very impressive and very motivating. Way to 
+                be strong, Jane! </font></li>
+              <li><b><font face="Arial, Helvetica, sans-serif" size="3">Barbara 
+                Walters</font></b><font face="Arial, Helvetica, sans-serif" size="2"> 
+                - Gets in their face, but shows a humanity to her guests. She 
+                understands the ins and outs of drama. I'd love to interview her 
+                for <i>Total Entertainment</i> (hear that Baba?).</font></li>
+              <li><font face="Arial, Helvetica, sans-serif" size="2"> <b><font size="3">Norma 
+                Rae</font></b> - Strong woman! Definitely understands Gale's Rules 
+                to Success. </font></li>
+              <li><font face="Arial, Helvetica, sans-serif" size="3"><b>Geraldine 
+                Ferraro</b></font><font face="Arial, Helvetica, sans-serif" size="2"> 
+                - She took on the boys and won in my book. Way to go, sister!</font></li>
+            </ol>
+          </td>
+          <td height="36" width="333" valign="top"> 
+            <p><font face="Arial, Helvetica, sans-serif" size="2"><b><img src="images/scream3_sp_125.gif" width="318" height="30"></b></font></p>
+            <ol>
+              <li><img src="images/scream3_sp_137.gif" width="112" height="145" align="right"><b><font face="Arial, Helvetica, sans-serif" size="3">OJ 
+                Simpson</font></b><font face="Arial, Helvetica, sans-serif" size="2"> 
+                - He never gave me the interview that he promised me when I visited 
+                him during the trial. I blame the Dream Team for that (they didn't 
+                like the bad review I gave them). </font></li>
+              <li><b><font face="Arial, Helvetica, sans-serif" size="3">Billy 
+                Loomis</font></b><font face="Arial, Helvetica, sans-serif" size="2"> 
+                - Not to drag his name through the mud, but he could have at least 
+                granted me an interview before he came after me with a knife. 
+                </font></li>
+              <br>
+              <li><font face="Arial, Helvetica, sans-serif" size="3"><b>Jenny 
+                Jones</b></font><font face="Arial, Helvetica, sans-serif" size="2"> 
+                - Could one woman steal more from me and not stop long enough 
+                to give me some credit? </font></li>
+              <li><font face="Arial, Helvetica, sans-serif" size="3"><b> Charlie 
+                Rose</b></font><font face="Arial, Helvetica, sans-serif" size="2"> 
+                - I've got 3 books, many media awards, 2 movies, high ratiings 
+                and yet, he still fills the airwaves with the likes Woodward and 
+                Bernstein. He's a faker until he puts me on his show, damnnit! 
+                </font></li>
+              <li><b><font face="Arial, Helvetica, sans-serif" size="3"> Oprah</font></b><font face="Arial, Helvetica, sans-serif" size="2"> 
+                - Raids my Book of the Month Club and then takes credit when sales 
+                take off. Let's go toe to toe, sugar! </font></li>
+              <li><b><font face="Arial, Helvetica, sans-serif" size="3">Geraldo</font></b><font face="Arial, Helvetica, sans-serif" size="2"> 
+                - Taught me a lot during our one-on-one sessions, but after we 
+                failed to see eye to eye during OJ, he fell from my heroes ranks 
+                to the fakers.</font></li>
+              <li><font face="Arial, Helvetica, sans-serif" size="2"> <b><font size="3">Maury 
+                Povich</font></b> - No one watches, Maury! Hang it up, partner! 
+                </font></li>
+              <li><font face="Arial, Helvetica, sans-serif" size="3"><b> Monica 
+                Lewinsky</b></font><font face="Arial, Helvetica, sans-serif" size="2"> 
+                - Should've given me the interview, lady. Your books, diet, fashions, 
+                and magazines are only getting the infamous Gale Weathers' expose 
+                over my dead body. </font></li>
+              <li><font face="Arial, Helvetica, sans-serif" size="3"><b>Diane 
+                Sawyer</b></font><font face="Arial, Helvetica, sans-serif" size="2"> 
+                - Number one reason why <i>Total Entertainment</i> is better than 
+                <i>Sixty Minutes II</i>, Gale Weathers kicks Diane Sawyer's a%$. 
+                </font></li>
+              <li><font face="Arial, Helvetica, sans-serif" size="3"><b>Larry 
+                King</b></font><font face="Arial, Helvetica, sans-serif" size="2"> 
+                - ZZZZZZZ! Opps, caught myself snoring again, Lar! Hire me as 
+                an advisor, I'll toughen you up!</font></li>
+            </ol>
+          </td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+</table>
+<map name="gale_map">
+  <area shape="rect" coords="0,53,66,65" href="about.html">
+  <area shape="rect" coords="0,41,66,52" href="interview.html">
+  <area shape="rect" coords="0,28,66,40" href="books.html">
+  <area shape="rect" coords="0,17,66,28" href="advice.html">
+  <area shape="rect" coords="0,2,66,15" href="index.html">
+</map>
+</body>
+</html>
