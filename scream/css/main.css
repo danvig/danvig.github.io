@@ -1,0 +1,42 @@
+body {
+    background-color:black !important;
+    color:white !important;
+}
+
+.introduction {
+    /*background-color:black;*/
+    background-image:url(../assets/img/cast.jpeg);
+    background-repeat:no-repeat;
+    background-size: cover;
+    background-position: center center;
+    
+    text-align:center;
+    height:500px;
+    padding-top:300px;
+}
+
+.details {
+    padding-top:50px;
+    padding-bottom:50px;
+}
+
+.characters {
+    padding-top:50px;
+    padding-bottom:50px;
+    text-align:center;
+}
+
+.facts {
+    padding-top:50px;
+    padding-bottom:50px;
+}
+
+.gallery {
+    padding-top:50px;
+    padding-bottom:50px;
+    text-align:center;
+}
+
+.gallery img {
+    border:1px solid white;
+}
