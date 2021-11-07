@@ -1,0 +1,246 @@
+/*
+
+    MAIN CSS FILE FOR PARKER-NICHOLS MOTEL SITE
+    AUTHOR: DANIEL VIGLIETTI
+    VER: 1.0
+    DATE: 6/11/2021
+
+*/
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color:#FDFFFF;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color:white;
+    width:100%;
+}
+
+/* 1.0 HEADER STYLING */
+header {
+    background-image: url("../assets/img/room.jpg");
+    text-align:center;
+    height:775px;
+    padding-top:50px;
+
+    /* BACKGROUND STYLING */
+    background-position:center center;
+    background-repeat:no-repeat;
+    background-size: cover;
+}
+
+/* Header Navigation */
+.topnav {
+    background-color: transparent;
+    overflow:hidden;
+}
+
+.topnav a {
+    float: center;
+    display: inline;
+    color:white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.topnav a:hover {
+    color:rgb(212, 211, 211);
+}
+
+.topnav .icon {
+    display: none;
+}
+
+/* When the screen is less than 600 pixels wide, hide all links, except for the first one ("Home"). 
+Show the link that contains should open and close the topnav (.icon) */
+@media screen and (max-width: 600px) {
+    .topnav a:not(:first-child) {display: none;}
+    .topnav a.icon {
+      float: center;
+      display: inline;
+    }
+  }
+  
+/* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. 
+This class makes the topnav look good on small screens (display the links vertically instead of horizontally) */
+@media screen and (max-width: 600px) {
+    .topnav.responsive {position: relative;}
+    .topnav.responsive a.icon {
+      position: absolute;
+      right: 0;
+      top: 0;
+    }
+    .topnav.responsive a {
+      float: center;
+      display: inline;
+      text-align: center;
+    }
+  }
+
+/* WELCOME MESSAGE */
+.welcome-message {
+    padding-top:250px;
+}
+
+.welcome-button-container {
+    padding-top:200px;
+}
+
+.welcome-button {
+    border:1px solid white;
+    color:white;
+    background-color:transparent;
+    border-radius:50px;
+    font-size:25px;
+    width:180px;
+}
+
+/* ABOUT SECTION */
+.about {
+    background-color:#FDFFFF;
+    padding-top:75px;
+    padding-bottom:75px;
+    color:black;
+    text-align:center;
+}
+
+.about h2 {
+    color:red;
+}
+
+.about-text-container {
+    padding-top:80px;
+    padding-left:75px;
+    padding-right:75px;
+}
+
+/* SERVICES SECTION */
+.services {
+    padding-top:75px;
+    padding-bottom:75px;
+    background-color:#705A4B;
+    color:white;
+    text-align:center;
+}
+
+.services-text-container {
+    padding-top:50px;
+}
+
+/* ROOMS SECTION */
+.rooms {
+    padding-top:75px;
+    background-color:white;
+    color:black;
+    text-align:center;
+}
+
+.rooms h2 {
+    color:red;
+    padding-bottom:40px;
+}
+
+.rooms-text-container {
+    padding-top:150px;
+    height:400px;
+}
+
+.king {
+    background-image: url('../assets/img/king.jpg');
+    background-position:center center;
+    background-repeat:no-repeat;
+    background-size: cover;
+    height:400px;
+}
+
+.queen {
+    background-image: url('../assets/img/queen.jpg');
+    background-position:center center;
+    background-repeat:no-repeat;
+    background-size: cover;
+    height:400px;
+}
+
+.single {
+    background-image: url('../assets/img/single.jpg');
+    background-position:center center;
+    background-repeat:no-repeat;
+    background-size: cover;
+    height:400px;
+}
+
+/* CONTACT SECTION */
+.contact {
+    background-color:#231F20;
+    color:white;
+    padding-top:50px;
+    padding-bottom:50px;
+    text-align:center;
+}
+
+.email-button {
+    background-color:transparent;
+    border:1px solid white;
+    color:white;
+    border-radius:50px;
+    font-size:25px;
+    width:180px;
+}
+
+.email-button:hover {
+    background-color:#313131;
+    border:1px solid white;
+}
+
+.contact-container {
+    padding-top:20px;
+}
+
+.email-input {
+    background-color:transparent;
+    color:white;
+    border:1px solid white;
+    font-size:18px;
+    width:300px;
+    border-radius:50px;
+    padding-left:10px;
+}
+
+.text-input {
+    height:250px;
+    border-radius:50px;
+    font-size:18px;
+    width:300px;
+    border:1px solid white;
+    background-color:transparent;
+    color:white;
+    padding-top:20px;
+    padding-left:10px;
+}
+
+/* FOOTER */
+footer {
+    background-color:#F8F0E1;
+    font-size:16px;
+    color:black;
+    padding-left:25px;
+    padding-right:25px;
+    text-align:center;
+    padding-top:50px;
+    padding-bottom:40px;
+}
+
+footer a {
+    color:black;
+    font-weight:bold;
+}
+
+footer a:hover {
+    text-decoration:underline;
+    color:black;
+    font-weight:bold;
+}

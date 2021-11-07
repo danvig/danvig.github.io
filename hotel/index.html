@@ -1,0 +1,225 @@
+<!-- 
+
+    MOTEL SITE TEMPLATE
+    AUTHOR: DANIEL VIGLIETTI
+    VER: 1.0
+    DATE: 6/11/2021
+
+    THIS IS AN ORIGINAL TEMPLATE AND MUST NOT BE RE-PRODUCED WITHOUT PERMISSION/PURCHASE
+
+-->
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Welcome to the Parker-Nichols Hotel</title>
+
+        <!-- IMPORT BOOTSTRAP -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+        <!-- ICON LIBRARY -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+        <!-- META TAGS -->
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+        <!-- CSS -->
+        <link rel="stylesheet" href="css/main.css">
+    </head>
+
+    <body>
+        <!-- HEADER -->
+        <header>
+            <!-- Navigation -->
+            <div class="topnav" id="myTopnav">
+                <a href="#about">About</a>
+                <a href="#services">Services</a>
+                <a href="#rooms">Rooms</a>
+                <a href="#">Contact</a>
+                <a href="javascript:void(0);" class="icon" onclick="navigation()">
+                    <i class="fa fa-bars"></i>
+                </a>
+            </div>
+
+            <div class="welcome-message">
+                <p>Welcome to the</p>
+                <h1>Parker-Nichols Hotel</h1>
+
+                <div class="welcome-button-container">
+                    <a href="#about"><button class="welcome-button">Read More</button></a>
+                </div>
+            </div>
+        </header>
+
+        <!-- ABOUT -->
+        <div class="about" id="about">
+            <h2>About Us</h2>
+
+            <div class="about-text-container">
+                <p>The Parker-Nichols Hotel was founded in 2013 by two brothers, Drake Parker and Josh Nichols.</p>
+
+                <br>
+
+                <p>Nestled against the sunny backdrop of San Diego, California, the motel provides 20 exclusive and luxurious rooms of differing capacities to its 
+                    customers. Tourists and locals come far and wide to enjoy the comforts of the Parker-Nichols Motel, which is why we've stayed in business
+                    in such a difficult industry.
+                </p>
+
+                <br>
+
+                <p>
+                    Relax and enjoy the sunny surroundings of San Diego, as we are located right in the heart of the City. We are a family owned and operated
+                    business that provides a stay our customers will never forget. All our rooms come equipped with extra large beds, high speed internet access,
+                    and state-of-the-art amenities, ensuring your stay is as relaxing as possible.
+                </p>
+
+                <br>
+
+                <p>
+                    Whether you are a solo explorer or part of a group of adventurers, we are all about ensuring you have a memorable and relaxing visit.
+                </p>
+
+                <br>
+
+                <img src="assets/img/room-2.jpg" width=400>
+            </div>
+        </div>
+
+        <!-- SERVICES -->
+        <div class="services" id="services">
+            <h2>SERVICES</h2>
+
+            <div class="container services-text-container">
+                <div class="row">
+                    <div class="col-sm-4" style="padding-bottom:20px;">
+                        <p class="fa fa-internet-explorer" style="font-size:75px; padding-bottom:15px;"></p>
+                        <h4>High-Speed Internet</h4>
+                        <p>All of our rooms come with <strong>free</strong> high-speed internet access for all customers, and up to four devices.</p>
+                    </div>
+
+                    <div class="col-sm-4" style="padding-bottom:20px;">
+                        <p class="fa fa-bed" style="font-size:75px; padding-bottom:15px;"></p>
+                        <h4>Luxurious Rooms</h4>
+                        <p>Our rooms come with state-of-the-art furniture, electronic appliances, smart technology and bathroom facilities.</p>
+                    </div>
+
+                    <div class="col-sm-4" style="padding-bottom:20px;">
+                        <p class="fa fa-bicycle" style="font-size:75px; padding-bottom:15px;"></p>
+                        <h4>Gym Facilities</h4>
+                        <p>All customers get access to the gyms available on our top floor. All gyms are equipped with the latest exercise equipment.</p>
+                    </div>
+                </div>
+
+                <br><br>
+
+                <div class="row" style="padding-top:25px;">
+                    <div class="col-sm-4" style="padding-bottom:20px;">
+                        <p class="fa fa-car" style="font-size:75px; padding-bottom:15px;"></p>
+                        <h4>Premium Chauffeur Services</h4>
+                        <p>For an additional fee, you can access our luxury Rolls Royce chauffeur service. Taking you wherever you want to go.</p>
+                    </div>
+
+                    <div class="col-sm-4" style="padding-bottom:20px;">
+                        <p class="fa fa-glass" style="font-size:75px; padding-bottom:15px;"></p>
+                        <h4>Adults Only Bar</h4>
+                        <p>Leave the kids behind and have a nice relaxing night in our newly renovated bar. Just you and your favourite drink.</p>
+                    </div>
+
+                    <div class="col-sm-4" style="padding-bottom:20px;">
+                        <p class="fa fa-shopping-bag" style="font-size:75px; padding-bottom:15px;"></p>
+                        <h4>Personal Shopper Services</h4>
+                        <p>Fancy spending a little money while you relax in your room? Just call up our personal shopper service.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- ROOMS -->
+        <div class="rooms" id="rooms">
+            <h2>Rooms</h2>
+            <div class="container">
+                <!-- KING ROOM -->
+                <div class="row">
+                    <div class="col-sm-6 king section-image"></div>
+                    <div class="col-sm-6 rooms-text-container">
+                        <h3>King Rooms</h3>
+                        <p>The most luxurious of all of our rooms. Featuring an extra large king-sized bed, snack bar, 75" UHD TV, and ensuite facilities.</p>
+                    </div>
+                </div>
+
+                <!-- QUEEN ROOM -->
+                <div class="row">
+                    <div class="col-sm-6 queen section-image"></div>
+                    <div class="col-sm-6 rooms-text-container">
+                        <h3>Queen Rooms</h3>
+                        <p>The room for those who want luxury but not at a horrendous cost. A beautiful queen-sized bed, modern bathroom and flatscreen TV.</p>
+                    </div>
+                </div>
+
+                <!-- SINGLE ROOM -->
+                <div class="row">
+                    <div class="col-sm-6 single section-image"></div>
+                    <div class="col-sm-6 rooms-text-container">
+                        <h3>Single Rooms</h3>
+                        <p>The room for the everyday Joe, but with a hint of luxury. Perfect for a night away, or a week away. State-of-the-art facilities in all rooms.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- CONTACT -->
+        <div class="contact" id="contact">
+            <h2>CONTACT US</h2>
+            <p>Ready to book one of our rooms? Want to inquire about one of our services. Contact us now and we'll get back to you in 1-2 business days.</p>
+            <br>
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-6">
+                        <img src="assets/img/travel.jpg" width=300>
+                    </div>
+                    <div class="col-sm-6 contact-container">
+                        <form action="#">
+                            <input type="text" class="email-input" placeholder="Your Name">
+                            <br><br>
+                            <input type="email" class="email-input" placeholder="Your Email">
+                            <br><br>
+                            <textarea class="text-input" placeholder="Your Message"></textarea>
+                            <br><br>
+                            <input type="submit" class="email-button" value="Send Email">
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- FOOTER -->
+        <footer>
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-6">
+                        Copyright 2021 Parker-Nichols Hotel. All rights reserved.
+                    </div>
+
+                    <div class="col-sm-6">
+                        Site design by <a href="www.danielviglietti.com">Daniel Viglietti.</a> Site template is available for purchase.
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </body>
+</html>
+
+<script>
+    function navigation() {
+        var x = document.getElementById("myTopnav");
+        if (x.className === "topnav") {
+            x.className += " responsive";
+        } 
+        else {
+            x.className = "topnav";
+        }
+    }
+</script>
