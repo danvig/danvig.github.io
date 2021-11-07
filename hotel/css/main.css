@@ -188,7 +188,8 @@ This class makes the topnav look good on small screens (display the links vertic
     color:white;
     border-radius:50px;
     font-size:25px;
-    width:180px;
+    width:190px;
+    text-align:center;
 }
 
 .email-button:hover {
