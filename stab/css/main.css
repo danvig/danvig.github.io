@@ -81,3 +81,16 @@ header {
     padding-top:3px;
     padding-bottom:3px;
 }
+
+footer {
+	color:white;
+}
+
+footer a {
+	color:white;
+}
+
+footer a:hover {
+	color:white;
+	text-decoration:underline;
+}
