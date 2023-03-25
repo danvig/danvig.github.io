@@ -1,0 +1,54 @@
+body {
+    background-image: url("../assets/back.gif");
+    color:black;
+    font-family:'Courier New', Courier, monospace !important;
+    margin-top:0;
+    width:100%;
+}
+
+.align-center {
+    text-align:center;
+}
+
+/* Link styling */
+
+a:link {
+    color:#990000;
+    text-decoration:underline;
+}
+
+a:visited {
+    color:#990000;
+    text-decoration:underline;
+}
+
+a:hover {
+    color:#990000 !important;
+    text-decoration:underline;
+}
+
+a:active {
+    color:#990000;
+    text-decoration:underline;
+}
+
+/* List change color */
+.map ol li {
+    counter-increment: list;
+    list-style-type: none;
+    position: relative;
+}
+
+.map ol li:before {
+    color: red;
+    content: counter(list) ".";
+    left: -32px;
+    position: absolute;
+    text-align: right;
+    width: 26px;
+}
+
+.dec {
+    color:gray;
+    font-weight:normal;
+}

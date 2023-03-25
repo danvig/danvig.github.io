@@ -3,15 +3,12 @@
 The following is a github repo for some more of my web projects.
 
 ## Contents ##
-
-- iPhone 12 - A spotlight page for the iPhone 12.
-
-- Cipher Tribute Page - A tribute page for the character, Cipher, from the Fast and Furious franchise.
+- Wordle - A recreation of the game Wordle.
 
 - Scream Movie Spotlight Page - A spotlight page for the cult classic horror film, "Scream".
 
-- Hotel Template - A template for a hotel website (in-progress)
-
 - Web Development Landing Page - A landing page for my Web Development brand.
 
-- Stab - A re-creation of the search page for the first Stab film from Scream 5 (in-progress).
+- Hotel Template - A template for a hotel website (in-progress)
+
+- Sunrise Sucks - A, mobile friendly, recreation of one of the old Scream 3 promotional websites from 1999.
