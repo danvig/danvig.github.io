@@ -66,10 +66,11 @@ hr {
     text-align: center; /* Center the title */
 }
 
-.projects h2 {
+.projects-h2 {
     margin-bottom: 20px; /* Space between the title and the cards */
     color: var(--primary-color);
     font-weight: 550;
+    text-align:center;
 }
 
 .projects {
