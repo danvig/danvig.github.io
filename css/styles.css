@@ -65,12 +65,20 @@ hr {
 }
 
 .projects {
-    padding-bottom:20px;
+    text-align: center; /* Center the title */
+}
+
+.projects-title {
+    margin-bottom: 20px; /* Add some space below the title */
+    color: var(--primary-color); /* Ensure the color is aligned with your color scheme */
+}
+
+.projects-container {
     display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-    gap: 20px;
+    justify-content: center;  /* Center the cards horizontally */
+    align-items: center;      /* Center the cards vertically */
+    flex-wrap: wrap;          /* Allows multiple cards to wrap if needed */
+    gap: 20px;                /* Adds space between the cards */
 }
 
 .projects .temporary {
