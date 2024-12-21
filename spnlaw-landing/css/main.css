@@ -28,8 +28,15 @@ header.hero .hero-content {
 }
 
 header.hero .hero-content img {
-    width:500px;
+    width:400px;
     margin-bottom: 20px;
+}
+
+@media (max-width: 768px) {
+    header.hero .hero-content img {
+        width:250px;
+        margin-bottom: 20px;
+    }
 }
 
 header.hero .hero-content h1 {
