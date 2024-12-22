@@ -82,7 +82,6 @@ header.hero .hero-content .button:hover {
 .about-section p {
     font-size: 1rem;
     line-height: 1.6;
-    margin-bottom: 20px;
 }
 
 .about-section blockquote {
@@ -96,28 +95,62 @@ header.hero .hero-content .button:hover {
     max-width: 600px;
 }
 
-.about-section .why-choose-us {
-    margin: 30px 0;
-}
-
-.about-section .why-choose-us h3 {
-    font-size: 1.8rem;
+/* Why Choose Us Section */
+.why-choose-us {
+    padding: 5px 20px 0px;
+    background-color: #f9f9f9;
+    text-align: center;
     color: #1d364a;
-    margin-bottom: 15px;
 }
 
-.about-section .why-choose-us ul {
-    list-style: none;
-    padding: 0;
+.why-choose-us h2 {
+    font-size: 2rem;
+    margin-bottom: 30px;
+    color: #1d364a;
 }
 
-.about-section .why-choose-us ul li {
-    font-size: 1rem;
+.why-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* Four columns */
+    gap: 20px;
+    max-width: 1200px;
+    margin: 0 auto; /* Center the grid */
+}
+
+.why-item {
+    text-align: center;
+    padding: 20px;
+}
+
+.why-item i {
+    font-size: 2.5rem; /* Icon size */
+    color: #1d364a;
+    margin-bottom: 10px;
+}
+
+.why-item h3 {
+    font-size: 1.2rem;
     margin: 10px 0;
+    color: #1d364a;
 }
 
-.about-section .why-choose-us ul li strong {
-    color: #1d364a;
+.why-item p {
+    font-size: 1rem;
+    line-height: 1.6;
+    color: #333;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .why-grid {
+        grid-template-columns: repeat(2, 1fr); /* Two columns for smaller screens */
+    }
+}
+
+@media (max-width: 480px) {
+    .why-grid {
+        grid-template-columns: 1fr; /* One column for mobile */
+    }
 }
 
 .about-section .button {
@@ -288,7 +321,7 @@ header.hero .hero-content .button:hover {
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-    text-align: left;
+    text-align: center;
 }
 
 .testimonial p {
@@ -303,6 +336,12 @@ header.hero .hero-content .button:hover {
     margin-top: 10px;
     font-size: 0.9rem;
     color: #555;
+}
+
+.testimonial i {
+    font-size: 2rem;
+    color: #1d364a; /* Matches the branding */
+    margin-bottom: 10px;
 }
 
 /* Responsive Design */
