@@ -1,0 +1,21 @@
+html {
+    background-image:url('../img/background.gif');
+    background-repeat: repeat; 
+    background-position: top left; 
+    background-attachment: scroll; 
+}
+
+body {
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    color:white;
+}
+
+footer {
+    text-align:center;
+}
+
+footer a {
+    color:rgb(252, 93, 93);
+    padding-right:15px;
+    padding-left:15px;
+}
