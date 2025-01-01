@@ -1,0 +1,44 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f0f8ff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+h1 {
+    margin-top: 20px;
+}
+
+.bingo-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    gap: 10px;
+    width: 90%;
+    max-width: 500px;
+    margin: 20px auto;
+}
+
+.bingo-item {
+    padding: 20px;
+    background-color: #ffffff;
+    border: 2px solid #00bfff;
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.bingo-item:hover {
+    background-color:#f0f8ff;
+}
+
+.bingo-item.marked {
+    background-color: #00bfff;
+    color: white;
+    text-decoration: line-through;
+}
