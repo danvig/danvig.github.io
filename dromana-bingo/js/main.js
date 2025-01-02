@@ -39,14 +39,14 @@ let winner = localStorage.getItem('bingoWinner') || null;
 
 // Display winner if it exists
 if (winner) {
-    winnerDisplay.textContent = `Bingo Winner: ${winner}`;
+    winnerDisplay.textContent = `${winner}, you have finished`;
     winnerDisplay.style.marginTop = "20px";
     winnerDisplay.style.fontSize = "1.2rem";
     winnerDisplay.style.color = "green";
 
     // Show winner banner
     winnerBanner.style.display = "block";
-    bannerText.textContent = `${winner} has already won Bingo!`;
+    bannerText.textContent = `${winner} You have completed your Bingo card!`;
 
     // Make the squares unclickable
     makeSquaresUnclickable();
@@ -110,7 +110,7 @@ function declareWinner() {
             // Update winner display and banner
             winnerDisplay.textContent = `Bingo Winner: ${winner}`;
             winnerBanner.style.display = "block";
-            bannerText.textContent = `${winner} has already won Bingo!`;
+            bannerText.textContent = `${winner}! You have completed your Bingo card!`;
             alert(`Congratulations, ${name}!`);
 
             // Make squares unclickable
@@ -130,7 +130,7 @@ function makeSquaresUnclickable() {
 
 // Reset the game
 function resetGame() {
-    const confirmation = confirm("Resetting the bingo board will reset it for everyone. Are you sure?");
+    const confirmation = confirm("Resetting the bingo board will reset your progress. Are you sure you want to reset?");
     if (confirmation) {
         markedItems.length = 0;
         localStorage.removeItem('markedBingoItems');
@@ -170,7 +170,7 @@ function displayRules() {
             <li>When an event happens, mark off the square.</li>
             <li>Make sure you are not playing in Incognito Mode/Private Browsing as the site has to recognize your device to save your progress.</li>
             <li>If you win, enter your name and you are crowned the winner. The board will then be locked.</li>
-            <li>If the game needs to begin again, click the reset button.</li>
+            <li>If you need to start again, click the reset button.</li>
         </ol>
         <button id="close-rules-button" style="
             margin-top: 20px;
